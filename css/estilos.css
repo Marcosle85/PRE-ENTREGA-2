@@ -18,6 +18,9 @@ body{
     font-size: 20px; 
 }
 
+.Menuburguer{
+    color: black;
+}
 /* Fin Header */
 
 /* Inicio Main */
@@ -104,11 +107,10 @@ body{
 }
 
 @media only screen and (min-width:768px){
-    .Productos{
+    .Productos{ 
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(2, 200px);
-
-
+}
         .I1{
             grid-column: 1/2;
             grid-row: 1/3;
@@ -136,7 +138,6 @@ body{
             grid-row: 2/3;
         }
     }
-
 
 /* Fin pagina productos */
 
@@ -263,4 +264,4 @@ footer p{
     line-height: 40px;
     font-size: 30px;
     border-radius: 20px;
-}
+} 
