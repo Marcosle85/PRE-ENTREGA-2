@@ -143,25 +143,14 @@ body{
 
 /* Inicio pagina recetas */
 
-.recetas{
-    text-align: center;
-    font-size: 20px;
-    background-color: rgba(250, 235, 215, 0.258)
-}
-
-.recetas h1{
-    font-size: 50px;
-}
 .recetas a{
-    font-size: 30px;
-    text-decoration: none;
-    text-align: center;
     color: antiquewhite;
-    text-shadow: rgba(1, 1, 17, 0.33);
-}
+    text-shadow: rgba(115, 115, 145, 0.33);
+    margin-top: 10;
+} 
 
 .recetas a:hover{
-    color: rgba(13, 13, 198, 0.555);
+    color: rgba(229, 229, 244, 0.555);
 }
 
 /* Fin Pagina Recetas */
@@ -196,21 +185,20 @@ padding: 10px;
 
 /* Inicio Pagina Contacto */
 
-.formulario{
+.contacto, h1{
     text-align: center;
-    font-size: 20px;
-    background-color:rgba(250, 235, 215, 0.258);
-}
-
-.formulario h1{
     font-size: 50px;
 }
-.formulario a{
-    color: rgb(19, 23, 119);
-    border-radius: 5px;
-    text-align: left;
-    text-decoration: none;
+
+.casillas{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 255, 0.375);
 }
+
 
 /* Fin Pagina Contacto */
 
@@ -265,3 +253,19 @@ footer p{
     font-size: 30px;
     border-radius: 20px;
 } 
+
+/* Boton Whatsapp */
+
+.what{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(34, 114, 42, 0.358);
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    text-align: center;
+    color: rgb(210, 220, 210);
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Img/spaghetti-31784_1280.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../Img/spaghetti-31784_1280.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <!-- bs 5.1 inicio -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -14,64 +14,73 @@
 <body>
     <header>
         <!-- inicio navbar bs -->
-        <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">El Portal</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Recetas.html">Recetas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Sobre Nosotros.html">Sobre Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+        <nav class="navbar navbar-expand-sm bg-primary opacity-75 ">
+          <div class="bg-primary container-fluid">
+            <a class="text-white navbar-brand" href="../index.html">El Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span id="Menuburguer"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="text-primary collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="bg-primary opacity-50 navbar-nav rounded">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./Productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./Recetas.html">Recetas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./Sobre Nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./Contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
           <!-- fin navbar bs -->
     </header>
-    <section class="recetas">
-            <h1>Recetas</h1>
+    <section class="container-fluid">
+          <div class="row text-center">
+            <h1 cla>Recetas</h1>
             <h2>Te dejamos algunas ideas para que hagas con nuestros productos</h2>
-            <div>
-            <nav>
-                <a href="https://www.directoalpaladar.com/recetas-de-pasta/once-mejores-recetas-raviolis-dap" target="_blank">Ravioles</a><br>
-                <a href="https://www.elle.com/es/gourmet/recetas-cocina/g44085667/recetas-tallarines-originales-ricas/" target="_blank">Tallarines</a><br>
-                <a href="https://www.elle.com/es/gourmet/recetas-cocina/g44053600/recetas-noquis-originales-ricas/" target="_blank">Ñoquis</a><br>
-                <a href="https://ar.pinterest.com/Vogliaok/recetas-saladas-con-tapas-de-tarta-o-pascualina/"target="_blank">Discos de tarta</a><br>
-                <a href="https://cocinerosargentinos.com/masas-saladas/recetas-con-tapas-de-empanadas"target="_blank">Discos de empanada</a><br>
-                <a href="https://cookpad.com/ar/buscar/salsa%20para%20sorrentinos"target="_blank">Sorrentinos</a><br>
-            </nav>  
-        </div>
+          </div>
+            <div class="row text-decoration-none text-center justify-content-center m-2 recetas">
+              <nav>
+                <a class="bg-primary opacity-75 rounded p-1 text-decoration-none fs-2" href="https://www.directoalpaladar.com/recetas-de-pasta/once-mejores-recetas-raviolis-dap" target="_blank">Ravioles</a><br>
+                <a class="bg-primary opacity-75 rounded p-1 text-decoration-none fs-2" href="https://www.elle.com/es/gourmet/recetas-cocina/g44085667/recetas-tallarines-originales-ricas/" target="_blank">Tallarines</a><br>
+                <a class="bg-primary opacity-75 rounded p-1 text-decoration-none fs-2" href="https://www.elle.com/es/gourmet/recetas-cocina/g44053600/recetas-noquis-originales-ricas/" target="_blank">Ñoquis</a><br>
+                <a class="bg-primary opacity-75 rounded p-1 text-decoration-none fs-2" href="https://ar.pinterest.com/Vogliaok/recetas-saladas-con-tapas-de-tarta-o-pascualina/"target="_blank">Discos de tarta</a><br>
+                <a class="bg-primary opacity-75 rounded p-1 text-decoration-none fs-2" href="https://cocinerosargentinos.com/masas-saladas/recetas-con-tapas-de-empanadas"target="_blank">Discos de empanada</a><br>
+                <a class="bg-primary opacity-75 rounded p-1 text-decoration-none fs-2" href="https://cookpad.com/ar/buscar/salsa%20para%20sorrentinos"target="_blank">Sorrentinos</a><br>
+              </nav>  
+            </div>
     </section> 
-    <footer>
-        <div>
-            <p>📞 0342 444-8931</p>
-            <p>🗺️ Av. Richieri 1946, Santo Tomé, Argentina</p>
-            <p>📬 pastaselportal@gmail.com</p>
-            <a class="cont" href="./Contacto.html">✏️Contacto</a>
-            <nav class="redes">
-                <p>Seguinos en nuestras redes:</p>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-facebook"></i>
-            </nav>
-            </div>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d54319.94611579189!2d-60.765857000000004!3d-31.688660000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9face153769%3A0xfe934e6b91604915!2sFabrica%20de%20Pastas%20EL%20PORTAL!5e0!3m2!1ses-419!2sar!4v1708598544736!5m2!1ses-419!2sar" width="auto" height="150" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-    </footer>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-md-9 text-center">
+          <p>📞 0342 444-8931</p>
+          <p>🗺️ Av. Richieri 1946, Santo Tomé, Argentina</p>
+          <p>📬 pastaselportal@gmail.com</p>
+          <a class="text-decoration-none text-black fw-bold" href="./Pages/Contacto.html">✏️Contacto</a>
+      <nav class="redes text-center">
+          <p>Seguinos en nuestras redes:</p>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+      </nav>
+        </div>
+        <div class="col-md-3 text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d54319.94611579189!2d-60.765857000000004!3d-31.688660000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9face153769%3A0xfe934e6b91604915!2sFabrica%20de%20Pastas%20EL%20PORTAL!5e0!3m2!1ses-419!2sar!4v1708598544736!5m2!1ses-419!2sar" width="auto" height="150" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+  </footer>
     <a href="#" class="Subir">
         <i class="fa-solid fa-arrow-up"></i>
     </a>
+    <a href="https://walink.co/f26b5d" class="what">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
